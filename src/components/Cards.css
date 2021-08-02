@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Card {
   width: 29%;
   margin: 20px auto;
@@ -45,3 +46,52 @@ img:hover {
     width: 60%;
   }
 }
+=======
+.Card {
+  width: 29%;
+  margin: 20px auto;
+  background-color: rgb(244, 236, 236);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(49, 48, 48);
+  cursor: pointer;
+  color: black;
+}
+
+.card-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.card-items h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 10px 20px;
+  color: black;
+}
+
+.card-items p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  color: black;
+}
+
+img {
+  width: 100%;
+  border-radius: 0px 20px;
+}
+img:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 960px) {
+  .Card {
+    width: 60%;
+  }
+}
+>>>>>>> ee56e13143c03270ea1b249340d4ee36222102db
